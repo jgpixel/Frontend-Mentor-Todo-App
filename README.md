@@ -1,2 +1,2 @@
 # Frontend-Mentor-Todo-App
-Todo list
+Challenge from https://frontendmentor.io. Challenge link: https://www.frontendmentor.io/challenges/todo-app-Su1_KokOW.
