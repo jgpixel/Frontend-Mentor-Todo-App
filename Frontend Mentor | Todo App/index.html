@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="/src/styles.css">
+
+    <script src="/src/script.js" defer></script>
+    <script src="/src/colorMode.js" defer></script>
+
+    <title>Frontend Mentor | Todo App</title>
+</head>
+<body>
+    <main>
+        <img id="header-image" class="header-image" src="/images/bg-desktop-dark.jpg" alt="" draggable="false">
+        <div class="container">
+            <nav>
+                <h1>TODO</h1>
+                <img id="color-mode-btn" class="color-mode-btn" src="/images/icon-sun.svg" alt="" draggable="false">
+            </nav>
+
+            <div class="input">
+                <input id="enter-text-el" class="enter-text-el" type="text" autocomplete="off" placeholder="Add a todo">
+                <button class="checkbox-round"></button>
+            </div>
+
+            <div id="list" class="list"></div>
+
+            <div class="menu">
+                <div class="item-count-container"><span id="item-count-el">0</span> item<span id="plural-s-el">s</span> left</div>
+
+                <div class="page">
+                    <button id="all-btn" class="selected page-btn">All</button>
+                    <button id="active-btn" class="page-btn">Active</button>
+                    <button id="completed-btn" class="page-btn">Completed</button>
+                </div>
+
+                <button id="clear-btn" class="clear-btn">Clear Completed</button>
+            </div>
+
+            <div class="mobile-menu menu">
+                <button id="all-btn-mobile" class="selected page-btn">All</button>
+                <button id="active-btn-mobile" class="page-btn">Active</button>
+                <button id="completed-btn-mobile" class="page-btn">Completed</button>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
